@@ -16,11 +16,12 @@ p {
 
 .head {
   padding: 200px 30px;
-  background-color: bisque;
+  background-color: rgb(241, 233, 222);
   text-align: center;
 }
 
 .main {
   max-width: 700px;
-  margin: 0 auto;
+  margin: 0px;
+  padding: 20px;
 }
