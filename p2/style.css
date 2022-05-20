@@ -25,3 +25,31 @@ p {
   margin: 0px;
   padding: 20px;
 }
+
+section + section {
+  padding: 50px;
+}
+
+header {
+  padding: 50px;
+}
+
+.nav-link {
+  color: rgb(59, 78, 78);
+}
+
+a:hover {
+  color: blueviolet;
+}
+
+a:link {
+  color: rgb(73, 72, 72);
+}
+
+.prof {
+  padding: 100px;
+}
+
+main > section {
+  border-top: solid 3px black;
+}
