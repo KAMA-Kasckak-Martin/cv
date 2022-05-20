@@ -48,8 +48,9 @@ a:link {
 
 .prof {
   padding: 100px;
+  border-top: none;
 }
 
-main > section {
-  border-top: solid 3px black;
+section {
+  border-top: 2px solid black;
 }
