@@ -54,3 +54,11 @@ a:link {
 .top {
   border-top: 2px solid black;
 }
+
+.emoji::after {
+  content: "😀";
+}
+.emoji::first-line {
+  background-color: aqua;
+  color: beige;
+}
