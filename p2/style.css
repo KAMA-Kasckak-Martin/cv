@@ -70,3 +70,13 @@ a:link {
 .p::first-letter {
   font-size: 200;
 }
+
+.d1 {
+  display: inline;
+  float: left;
+}
+
+.d2 {
+  display: inline;
+  float: right;
+}
