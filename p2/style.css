@@ -80,3 +80,8 @@ a:link {
   display: inline;
   float: right;
 }
+
+.l1 {
+  position: relative;
+  left: -20px;
+}
