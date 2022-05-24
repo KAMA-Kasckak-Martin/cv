@@ -4,6 +4,11 @@
 
 body {
   margin: 0rem;
+  max-width: 900px;
+  --main-color: rgb(34, 75, 56);
+  --theme-color: rgb(221, 127, 150);
+  --yonk-color: rgb(38, 87, 119);
+  --this-color: rgb(51, 250, 240);
 }
 
 h3 {
@@ -31,15 +36,15 @@ html {
 }
 
 .nav-link {
-  color: rgb(59, 78, 78);
+  color: var(--main-color);
 }
 
 a:hover {
-  color: blueviolet;
+  color: var(--yonk-color);
 }
 
 a:link {
-  color: rgb(73, 72, 72);
+  color: var(--this-color);
 }
 
 .prof {
@@ -48,15 +53,15 @@ a:link {
 }
 
 .top {
-  border-top: 0.1rem solid black;
+  border-top: 0.1rem solid var(--main-color);
 }
 
 .emoji::after {
   content: "😀";
 }
 .emoji::first-line {
-  background-color: aqua;
-  color: beige;
+  background-color: var(--yonk-color);
+  color: var(--this-color);
 }
 
 .p::first-letter {
@@ -72,12 +77,12 @@ button {
   position: absolute;
   top: 2rem;
   right: 2rem;
-  color: aqua;
+  color: var(--theme-color);
 }
 nav {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .d2 {
