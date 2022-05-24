@@ -12,6 +12,7 @@ h3 {
 
 p {
   font-family: "Koulen", cursive;
+  width: 60vw;
 }
 
 section + section {
@@ -33,9 +34,10 @@ html {
 }
 
 .main {
-  max-width: 20rem;
+  max-width: 50ch;
   margin: 0rem;
   padding: 2rem;
+  width: 60vw;
 }
 
 .nav-link {
