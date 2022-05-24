@@ -94,3 +94,29 @@ button {
   right: 2rem;
   color: aqua;
 }
+
+@media print {
+  nav {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  html {
+    font-size: 30px;
+  }
+  .top {
+    padding-top: 120px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 40px;
+  }
+  button {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+  }
+}
