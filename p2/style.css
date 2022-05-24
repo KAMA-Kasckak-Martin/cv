@@ -3,7 +3,7 @@
 }
 
 body {
-  margin: 0px;
+  margin: 0rem;
 }
 
 h3 {
@@ -15,11 +15,11 @@ p {
 }
 
 section + section {
-  padding: 50px;
+  padding: 4rem;
 }
 
 header {
-  padding: 50px;
+  padding: 4rem;
 }
 
 html {
@@ -27,15 +27,15 @@ html {
 }
 
 .head {
-  padding: 200px 30px;
+  padding: 12rem 2rem;
   background-color: rgb(241, 233, 222);
   text-align: center;
 }
 
 .main {
-  max-width: 700px;
-  margin: 0px;
-  padding: 20px;
+  max-width: 20rem;
+  margin: 0rem;
+  padding: 2rem;
 }
 
 .nav-link {
@@ -51,12 +51,12 @@ a:link {
 }
 
 .prof {
-  padding: 100px;
+  padding: 5rem;
   border-top: none;
 }
 
 .top {
-  border-top: 2px solid black;
+  border-top: 0.1rem solid black;
 }
 
 .emoji::after {
@@ -68,7 +68,7 @@ a:link {
 }
 
 .p::first-letter {
-  font-size: 200;
+  font-size: 5rem;
 }
 
 .d1 {
@@ -83,12 +83,12 @@ a:link {
 
 .l1 {
   position: relative;
-  left: -20px;
+  left: -2rem;
 }
 
 button {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 2rem;
+  right: 2rem;
   color: aqua;
 }
