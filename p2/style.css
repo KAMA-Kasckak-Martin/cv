@@ -37,6 +37,14 @@ html {
 
 .nav-link {
   color: var(--main-color);
+  transition: background-color 5s;
+  background-color: aqua;
+}
+
+.nav-link:focus {
+  transition: background-color 5s;
+  background-color: rgb(64, 68, 71);
+  background-color: aqua;
 }
 
 a:hover {
