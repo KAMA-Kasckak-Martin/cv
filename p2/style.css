@@ -191,3 +191,15 @@ header:hover button {
   transition: transform 1s;
   transform-origin: 100% 0%;
 }
+
+main-article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (mmin-width: 800px) {
+  main-article{
+    display: grid: ;
+    grid-template-columns: 2fr 1fr;
+  }
+}
